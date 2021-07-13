@@ -43,4 +43,4 @@
 
 ---
 
-##### Feito por 'seu nome'(apelido) :wave:
+##### Feito por Diego Nonato :wave:
