@@ -26,7 +26,9 @@
 
 ## Tecnologias :rocket:
 
-- <a href="#">Liste aqui</a>
+- <a href="#">React</a>
+- <a href="#">Next</a>
+- <a href="#">Styled-components</a>
 
 ## Como contribuir 🤔
 
