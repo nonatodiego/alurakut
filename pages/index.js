@@ -88,7 +88,7 @@ export default function Home() {
                   type="text"
                 />
               </div>
-              <div>
+              <div> 
                 <input
                   name="image"
                   placeholder="Coloque uma URL"
