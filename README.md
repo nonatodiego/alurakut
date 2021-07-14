@@ -30,19 +30,6 @@
 - <a href="https://nextjs.org/">NextJS</a>
 - <a href="https://www.datocms.com/">Dato CMS</a>
 
-<style>
-  p {
-    margin: 8px;
-    margin-left: 0;
-    padding: 16px;
-    display: flex;
-    align-items: center;
-  }
-  img {
-    margin-left: 14px
-  }
-</style>
-
 <p>
 <img src="https://image.flaticon.com/icons/png/512/1126/1126012.png" width="60">
 <img src="https://www.styled-components.com/atom.png" width="60">
