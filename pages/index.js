@@ -28,23 +28,24 @@ function ProfileSidebar(props) {
   );
 }
 
+// Seguidores do Github
 function ProfileRelationsBox(propriedades) {
   return (
     <ProfileRelationsBoxWrapper>
       <h2 className="smallTitle">
-        {propriedades.title} ({propriedades.items.length})
+        {propriedades.title} ({propriedades.items.length} ) 👏
       </h2>
       <ul>
-        {/* {seguidores.map((itemAtual) => {
+        {propriedades.items.slice(0,6).map((itemAtual) => {
           return (
-            <li key={itemAtual}>
-              <a href={`https://github.com/${itemAtual}.png`}>
-                <img src={itemAtual.image} />
-                <span>{itemAtual.title}</span>
+            <li key={itemAtual.id}>
+              <a href={itemAtual.html_url} target="_blank" rel="noopener noreferrer">
+                <img src={itemAtual.avatar_url} />
+                <span>{itemAtual.login}</span>
               </a>
             </li>
-          )
-        })} */}
+          );
+        })}
       </ul>
     </ProfileRelationsBoxWrapper>
   );
@@ -65,9 +66,6 @@ export default function Home() {
   // definindo usuario da foto por meio de props
   const githubUser = "nonatodiego";
 
-  // nome inicial
-  const myName = "Diego Nonato";
-
   // array de pessoas da comunidade
   const pessoasFavoritas = [
     "juunegreiros",
@@ -76,6 +74,8 @@ export default function Home() {
     "felipefialho",
     "peas",
     "rafaballerini",
+    "kvnol",
+    "flaviolehmann",
   ];
 
   // 0 - pegar o array de dados do github
@@ -105,7 +105,7 @@ export default function Home() {
         {/* WELCOME AREA */}
         <div className="welcomeArea" style={{ gridArea: "welcomeArea" }}>
           <Box className="title">
-            <h1 className="subTitle">Bem-vindo(a), {myName}</h1>
+            <h1 className="subTitle">Bem-vindo(a), Visitante</h1>
             <OrkutNostalgicIconSet />
           </Box>
           <Box>
@@ -172,14 +172,38 @@ export default function Home() {
               Pessoas da comunidade Dev ({pessoasFavoritas.length})
             </h2>
             <ul>
-              {pessoasFavoritas.map((item) => (
+              {pessoasFavoritas
+                .slice(0,6)
+                .map((item) => (
                 <li key={item}>
                   <a href="/users/${item}" key={item}>
                     <img src={`https://github.com/${item}.png`} />
                     <span>{item}</span>
                   </a>
                 </li>
-              ))}
+              )
+              )
+            }
+
+            </ul>
+          </ProfileRelationsBoxWrapper>
+
+          {/* COMUNIDADES */}
+          <ProfileRelationsBoxWrapper>
+            <h2 className="smallTitle">
+                Comunidades ({comunidades.length})
+            </h2>
+            <ul>
+              {comunidades.map((itemAtual) => {
+                return (
+                  <li key={itemAtual.id}>
+                    <a href={itemAtual.url} target="_blank" rel="noopener noreferrer">
+                      <img src={itemAtual.image} />
+                      <span>{itemAtual.title}</span>
+                    </a>
+                  </li>
+                );                
+              })}
             </ul>
           </ProfileRelationsBoxWrapper>
         </div>

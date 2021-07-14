@@ -25,9 +25,10 @@ export const ProfileRelationsBoxWrapper = styled(Box)`
     span {
       color: #FFFFFF;
       font-size: 10px;
+      font-weight: bold;
       position: absolute;
       left: 0;
-      bottom: 10px;
+      bottom: 0;
       z-index: 2;
       padding: 0 4px;
       overflow: hidden;
@@ -36,6 +37,9 @@ export const ProfileRelationsBoxWrapper = styled(Box)`
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
+      background-color: #000;
+      padding: 4px;
+      text-align: center;
     }
     &:after {
       content: "";
