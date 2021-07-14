@@ -34,7 +34,7 @@
 <img src="https://image.flaticon.com/icons/png/512/1126/1126012.png" width="60">
 <img src="https://www.styled-components.com/atom.png" width="60">
 <img src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png" width="60">
-<img src="https://www.datocms.com/images/brand-assets/main-lockup.svg" width="60">
+<img src="https://www.datocms.com/images/brand-assets/main-lockup.svg" width="120">
 </p>
 
 ## Como contribuir 🤔
