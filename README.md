@@ -14,7 +14,7 @@
 ## Apresentação do Projeto :sparkles:
 
 <p align="center">
-<image src="https://raw.githubusercontent.com/nonatodiego/alurakut/main/Screenshot%202021-07-14%20at%2012-33-39%20Screenshot.png" />
+<image src="https://i.imgur.com/xnszgq1.png" />
 </p>
 
 ---
@@ -29,6 +29,7 @@
 - <a href="https://styled-components.com/">Styled-components</a>
 - <a href="https://nextjs.org/">NextJS</a>
 - <a href="https://www.datocms.com/">Dato CMS</a>
+- <a href="https://yarnpkg.com/">Yarn</a>
 
 <br>
 
@@ -37,6 +38,8 @@
 <img src="https://www.styled-components.com/atom.png" width="60">
 <img src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png" width="60">
 <img src="https://www.datocms.com/images/brand-assets/main-lockup.svg" width="120">
+<img src="https://cdn.freelogovectors.net/wp-content/uploads/2020/12/yarn-logo.png" width="120"> 
+  
 </p>
 
 ## Como contribuir 🤔
