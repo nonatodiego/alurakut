@@ -95,7 +95,7 @@ export default function Home() {
 
   return (
     <>
-      <AlurakutMenu />
+      <AlurakutMenu githubUser={githubUser}/>
       <MainGrid>
         {/* PROFILE AREA */}
         <div className="profileArea" style={{ gridArea: "profileArea" }}>
