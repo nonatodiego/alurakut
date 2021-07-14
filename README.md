@@ -1,8 +1,7 @@
-<h1>Alurakut</h1>
+<h1>Imersão React - Alura</h1>
 
 <p align="center">
-<image src=""/></br>
-<label>Logo do projeto</label>
+<image src="https://alurakut.vercel.app/logo.svg" style="width:80px" />
 </p>
 
 <p align="center">
@@ -15,7 +14,7 @@
 ## Apresentação do Projeto :sparkles:
 
 <p align="center">
-
+<image src="https://raw.githubusercontent.com/nonatodiego/alurakut/main/Screenshot%202021-07-14%20at%2012-33-39%20Screenshot.png" />
 </p>
 
 ---
@@ -26,9 +25,30 @@
 
 ## Tecnologias :rocket:
 
-- <a href="#">React</a>
-- <a href="#">Next</a>
-- <a href="#">Styled-components</a>
+- <a href="https://pt-br.reactjs.org/"> ReactJS</a>
+- <a href="https://styled-components.com/">Styled-components</a>
+- <a href="https://nextjs.org/">NextJS</a>
+- <a href="https://www.datocms.com/">Dato CMS</a>
+
+<style>
+  p {
+    margin: 8px;
+    margin-left: 0;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+  }
+  img {
+    margin-left: 14px
+  }
+</style>
+
+<p>
+<img src="https://image.flaticon.com/icons/png/512/1126/1126012.png" width="60">
+<img src="https://www.styled-components.com/atom.png" width="60">
+<img src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png" width="60">
+<img src="https://www.datocms.com/images/brand-assets/main-lockup.svg" width="60">
+</p>
 
 ## Como contribuir 🤔
 
