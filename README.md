@@ -1,4 +1,4 @@
-<h1>Título do Projeto</h1>
+<h1>Alurakut</h1>
 
 <p align="center">
 <image src=""/></br>
@@ -39,7 +39,7 @@
 
 ## Licença :scroll:
 
-> FREE
+> Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
